@@ -49,7 +49,7 @@ cardholder.onscroll = function () {
 
   if (!ticking) {
     window.requestAnimationFrame(function () {
-      if (pos <= cardholder.clientWidth)
+      if (pos <= 1)
         getCards()
       ticking = false
     })
