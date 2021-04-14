@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  text-align: center;
+}
+
+#cardholder {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+#scroll_btn {
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.card {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 12px;
+  width: 400px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 7px;
+}
